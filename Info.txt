@@ -1,0 +1,30 @@
+Date : 22-11-2023
+Name : Kiran
+Email : kiran.absoft@gmail.com	
+Phone : 7420841424
+Remark : 
+1) check out form fetch gst
+2) invoice print fetch gst
+3) booking report increase column gst 
+
+Date : 15-12-2023
+Name : Kiran
+Email : kiran.absoft@gmail.com	
+Phone : 7420841424
+Remark : 
+Mannual GST Selection
+1) booking form
+2) booking edit form
+3) Booking checkin form
+4) Direct checkin form
+5) Direct checkin edit form
+
+Date : 17-01-2024
+Name : Kiran
+Email : kiran.absoft@gmail.com	
+Phone : 7420841424
+Remark : 
+whatsapp sms
+1) booking form
+2) checkin form
+3) checkout form

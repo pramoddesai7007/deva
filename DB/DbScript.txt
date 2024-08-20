@@ -1,0 +1,19 @@
+Query
+04-07-23
+ALTER TABLE `booked_info` ADD `adv_booking` INT(2) NULL DEFAULT NULL AFTER `isSeen`;
+
+10-07-23
+ALTER TABLE `booked_info` ADD `gst` INT NOT NULL AFTER `roomrate`;
+ALTER TABLE `booked_info` ADD `gstamt` FLOAT NOT NULL AFTER `gst`;
+
+11-07-23
+ALTER TABLE `booked_info` ADD `total_gstamt` FLOAT NOT NULL AFTER `promocode`;
+
+17-07-23
+INSERT INTO `language` (`id`, `phrase`, `english`, `malay`, `french`, `german`, `spanish`, `turkish`, `hindi`) VALUES (NULL, 'Online Payment', 'Online Payment', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `language` (`id`, `phrase`, `english`, `malay`, `french`, `german`, `spanish`, `turkish`, `hindi`) VALUES (NULL, 'gstamt', 'Gst Amount', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `language` (`id`, `phrase`, `english`, `malay`, `french`, `german`, `spanish`, `turkish`, `hindi`) VALUES (NULL, 'advance_booking_list', 'Advance Booking list', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `language` (`id`, `phrase`, `english`, `malay`, `french`, `german`, `spanish`, `turkish`, `hindi`) VALUES (NULL, 'gst', 'Gst %', NULL, NULL, NULL, NULL, NULL, NULL);
+
+29-01-24
+ALTER TABLE `booked_info` ADD `days` INT NULL AFTER `date_time`;
